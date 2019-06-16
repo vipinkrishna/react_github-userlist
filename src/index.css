@@ -1,0 +1,38 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  font-family: sans-serif;
+}
+
+#root {
+  display: flex;
+}
+
+.UserList {
+  margin: 10px;
+  box-shadow: 0 0 2px rgba(0,0,0,0.5);
+  border-radius: 5px;
+  padding: 5px;
+  width: 250px;
+}
+
+.UserList > ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+.UserList > ul > li {
+  background-color: aquamarine;
+  padding: 10px 20px;
+  margin: 5px;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.UserList > ul > li:hover {
+  background-color: aqua;
+}
